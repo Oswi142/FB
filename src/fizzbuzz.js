@@ -1,5 +1,11 @@
 function fizzbuzz(a) {
-    return a;
+    if(a%3==0){
+        return "Fizz"
+    }
+    else{
+        return a;
+    }
+    
   }
   
   export default fizzbuzz;
